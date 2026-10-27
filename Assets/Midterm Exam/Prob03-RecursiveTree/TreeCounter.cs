@@ -23,6 +23,15 @@ namespace MidtermExam.Prob03
                 return count;
             }
             
+            if (root != null)
+            {
+                count++;
+                if (root.left != null || root.right != null)
+                {
+                    
+                }
+            }
+            
             return count;
         }
     }
