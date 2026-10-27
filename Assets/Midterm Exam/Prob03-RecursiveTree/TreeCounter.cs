@@ -17,7 +17,13 @@ namespace MidtermExam.Prob03
         public int AS03_CountTotalNode(Node root)
         {
             // TODO: เขียนคำตอบแทนคำสั่ง throw ด้านล่าง
-            throw new NotImplementedException();
+            int count = 0;
+            if (root == null)
+            {
+                return count;
+            }
+            
+            return count;
         }
     }
 }
